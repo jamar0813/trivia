@@ -7,7 +7,8 @@ import random
 
 #import sys
 #=sys.path.append('/backend/')
-from backend.models import setup_db, Question, Category
+#from backend.models import setup_db, Question, Category
+from models import setup_db, Question, Category
 
 # Added Questions Pagination
 QUESTIONS_PER_PAGE = 10
