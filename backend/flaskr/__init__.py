@@ -123,7 +123,7 @@ def create_app(test_config=None):
   the form will clear and the question will appear at the end of the last page
   of the questions list in the "List" tab.
   '''
-  @app.route('questions', methods=['POST'])
+  @app.route('/questions', methods=['POST'])
   def create_question():
       body = request.get_json()
       new_question = body.get('question', None)
